@@ -109,42 +109,41 @@
     </section>
 
     <!-- Investment Process Section -->
-    <section id="investment-process" class="pt-5 bg-light">
+    <section id="investment-process" class="pt-5 mb-5 bg-light">
         <div class="container mt-5">
             <h2 class="text-center mb-4">How to Start Investing</h2>
             <div class="row text-center">
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="process-step">
                         <i class="bi bi-person-fill process-icon"></i>
-                        <h3>1. Sign Up</h3>
-                        <p>Create your account by filling in the required details.</p>
+                        <h4 class="fs-5">1. Sign Up</h4>
+                        <p class="small">Create your account by filling in the required details.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="process-step">
                         <i class="bi bi-check-square process-icon"></i>
-                        <h3>2. Choose a Plan</h3>
-                        <p>Select an investment plan that suits your needs.</p>
+                        <h4 class="fs-5">2. Choose a Plan</h4>
+                        <p class="small">Select an investment plan that suits your needs.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="process-step">
                         <i class="bi bi-wallet process-icon"></i>
-                        <h3>3. Fund Your Account</h3>
-                        <p>Add funds to your account securely to start investing.</p>
+                        <h4 class="fs-5">3. Fund Your Account</h4>
+                        <p class="small">Add funds to your account securely to start investing.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="process-step">
                         <i class="bi bi-graph-up process-icon"></i>
-                        <h3>4. Track Your Investment</h3>
-                        <p>Monitor your investments and track your progress.</p>
+                        <h4 class="fs-5">4. Track Your Investment</h4>
+                        <p class="small">Monitor your investments and track your progress.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- Pricing Section -->
     <section id="pricing" class="bg-dark py-5">
@@ -179,7 +178,7 @@
                                 <li><i class="bi bi-check-lg text-success"></i> Access to monthly reports</li>
                             </ul>
                             <h5 class="mt-5">Allocation Strategy:</h5>
-                            <ul class="list-group list-group-flush gap-1 small">
+                            <ul class="list-group list-group-flush gap-1 small my-custom-list">
                                 <li class="list-group-item px-0">100% invested in Bitcoin</li>
                                 <li class="list-group-item px-0">Regular purchases using dollar-cost averaging</li>
                                 <li class="list-group-item px-0">Long-term holding for future growth</li>
@@ -232,7 +231,7 @@
                                 <li><i class="bi bi-check-lg text-success"></i> Dedicated portfolio management</li>
                             </ul>
                             <h5 class="mt-5">Allocation Strategy:</h5>
-                            <ul class="list-group list-group-flush gap-1 small">
+                            <ul class="list-group list-group-flush gap-1 small my-custom-list">
                                 <li class="list-group-item px-0">50% for long-term Bitcoin holding</li>
                                 <li class="list-group-item px-0">50% for short-term trading and advanced strategies</li>
                             </ul>
@@ -246,6 +245,95 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Users Say</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card p-4 text-center">
+                        <img src="https://randomuser.me/api/portraits/med/men/61.jpg" alt="User 1" class="rounded-circle mb-3" width="80" height="80">
+                        <h5 class="font-weight-bold">David Solomon</h5>
+                        <p class="text-muted">"BitTrade has transformed my investment strategy. I've seen incredible returns!"</p>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card p-4 text-center">
+                        <img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="User 2" class="rounded-circle mb-3" width="80" height="80">
+                        <h5 class="font-weight-bold">Jane Smith</h5>
+                        <p class="text-muted">"I love the user-friendly interface and the support is top-notch!"</p>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card p-4 text-center">
+                        <img src="https://randomuser.me/api/portraits/med/men/45.jpg" alt="User 3" class="rounded-circle mb-3" width="80" height="80">
+                        <h5 class="font-weight-bold">Mike Johnson</h5>
+                        <p class="text-muted">"The best investment platform I’ve ever used. Highly recommended!"</p>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Features Section -->
+    <section id="security-features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Security Features</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="security-card text-center p-4">
+                        <i class="bi bi-lock-fill mb-3" style="font-size: 40px; color: #019863;"></i>
+                        <h5>SSL Encryption</h5>
+                        <p>All data is transmitted securely using SSL encryption, ensuring that your information is protected.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="security-card text-center p-4">
+                        <i class="bi bi-shield-lock-fill mb-3" style="font-size: 40px; color: #019863;"></i>
+                        <h5>Two-Factor Authentication</h5>
+                        <p>Enhance your account security with two-factor authentication (2FA) for an additional layer of protection.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="security-card text-center p-4">
+                        <i class="bi bi-cloud-check-fill mb-3" style="font-size: 40px; color: #019863;"></i>
+                        <h5>Cold Storage for Assets</h5>
+                        <p>We store the majority of our assets in cold storage, ensuring they are safe from online threats.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-center mt-5 mb-4">Certifications & Trust Badges</h3>
+            <div class="text-center">
+                <img src="/images/trust-badge1.png" alt="Trust Badge 1" class="img-fluid mx-2" style="max-width: 150px;">
+                <img src="/images/trust-badge2.png" alt="Trust Badge 2" class="img-fluid mx-2" style="max-width: 150px;">
+                <img src="/images/trust-badge3.png" alt="Trust Badge 3" class="img-fluid mx-2" style="max-width: 150px;">
+            </div>
+        </div>
+    </section>
+
+
     <!-- Footer -->
     <footer class="footer bg-dark text-white py-4">
         <div class="container text-center">
@@ -254,9 +342,6 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

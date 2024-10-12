@@ -11,46 +11,56 @@
 }
 
 /* Custom color for just this button group */
-.btn-group{
+.btn-group {
     border: solid 1px var(--cadet-gray);
     border-radius: 20px;
     padding: 3px;
     color: white;
 }
+
 .btn-outline-primary {
-    --bs-btn-color: var(--onyx); /* Text color */
-    --bs-btn-border-color: transparent; /* Border color */
-    --bs-btn-hover-color: white; /* Text color on hover */
-    --bs-btn-hover-bg: var(--shamrock-green); /* Background color on hover */
+    --bs-btn-color: var(--onyx);
+    /* Text color */
+    --bs-btn-border-color: transparent;
+    /* Border color */
+    --bs-btn-hover-color: white;
+    /* Text color on hover */
+    --bs-btn-hover-bg: var(--shamrock-green);
+    /* Background color on hover */
     border-radius: 20px !important;
     color: white;
 }
 
 /* Custom color for checked state */
-.btn-check:checked + .btn-outline-primary {
-    background-color: var(--shamrock-green); /* Background color when checked */
-    color: white; /* Text color when checked */
-    border-color: var(--shamrock-green); /* Border color when checked */
+.btn-check:checked+.btn-outline-primary {
+    background-color: var(--shamrock-green);
+    /* Background color when checked */
+    color: white;
+    /* Text color when checked */
+    border-color: var(--shamrock-green);
+    /* Border color when checked */
     border-radius: 20px !important;
 }
 
 
-.btn-primary, .btn-primary:hover{
+.btn-primary,
+.btn-primary:hover {
     background-color: var(--eerie-black-2) !important;
     border-color: var(--onyx) !important;
 }
 
 
 /* Hero section styling */
- /* Button Gradient */
- .hero{
+/* Button Gradient */
+.hero {
     background: var(--eerie-black) url('/images/bg-full.png') no-repeat center center/cover;
     height: fit-content;
     padding: 10vh 0;
     position: relative;
- }
-  /* Button Gradient with Custom Colors */
-  .btn-gradient {
+}
+
+/* Button Gradient with Custom Colors */
+.btn-gradient {
     background: linear-gradient(to right, var(--shamrock-green), var(--cadet-gray));
     color: white;
     border: none;
@@ -89,6 +99,7 @@
     .hero {
         text-align: center;
     }
+
     .col-lg-6 {
         margin-bottom: 30px;
     }
@@ -142,35 +153,44 @@
 }
 
 #investment-process {
-    background-color: #f8f9fa; /* Light background */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #f8f9fa;
+    /* Light background */
+    border-radius: 8px;
+    /* Rounded corners */
 }
 
 .process-step {
-    background-color: white; /* Card-like effect */
-    padding: 20px;
+    background-color: white;
+    /* Card-like effect */
+    padding: 20px 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-    transition: transform 0.3s; /* Animation for hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    transition: transform 0.3s;
+    /* Animation for hover */
 }
 
 .process-step:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
+    transform: translateY(-5px);
+    /* Lift effect on hover */
 }
 
 .process-icon {
-    font-size: 40px; /* Larger icon size */
-    color: #019863; /* Custom icon color */
-    margin-bottom: 15px; /* Spacing below icon */
+    font-size: 40px;
+    /* Larger icon size */
+    color: #019863;
+    /* Custom icon color */
+    margin-bottom: 15px;
+    /* Spacing below icon */
 }
 
-#pricing{
+#pricing {
     background: var(--eerie-black) url('/images/bg-full.png') no-repeat center center/cover;
     color: white;
 }
 
 
-#pricing .text-center h2{
+#pricing .text-center h2 {
     font-size: 2.5em;
     font-weight: 700;
 }
@@ -185,12 +205,17 @@
     color: white;
 }
 
-#pricing.card:not(.pro)  .list-group-item{
+.my-custom-list .list-group-item {
+    background-color: transparent;
+    color: white;
+}
+
+#pricing.card:not(.pro) .list-group-item {
     background-color: transparent !important;
     --bs-list-group-bg: transparent !important;
 }
 
-.card.pro{
+.card.pro {
     --bs-card-border-color: var(--shamrock-green) !important;
     background-color: white;
     color: var(--eerie-black);
@@ -200,13 +225,68 @@
     background-color: var(--eerie-black);
     color: white;
 }
-.card-header.pro{
+
+.card-header.pro {
     background: linear-gradient(to right, var(--shamrock-green), var(--eerie-black));
 }
 
-.card-footer {
+#testimonials {
     background-color: #f8f9fa;
+    /* Light background */
 }
+
+.testimonial-card {
+    background-color: white;
+    /* Card background */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    transition: transform 0.3s;
+    /* Animation for hover */
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    /* Lift effect on hover */
+}
+
+.rating {
+    color: #ffcc00;
+    /* Gold color for stars */
+}
+
+.rating i {
+    font-size: 20px;
+    /* Star icon size */
+}
+
+#security-features {
+    background-color: #f0f8ff;
+    /* Light background color */
+}
+
+.security-card {
+    background-color: white;
+    /* Card background */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    transition: transform 0.3s;
+    /* Animation for hover */
+}
+
+.security-card:hover {
+    transform: translateY(-5px);
+    /* Lift effect on hover */
+}
+
+.security-card h5 {
+    color: #019863;
+    /* Consistent color for headings */
+}
+
 
 /* Footer Styling */
 .footer {
