@@ -1,0 +1,223 @@
+:root {
+    --cadet-gray: #9E9E9Eff;
+    --eerie-black: #1A1A1Aff;
+    --onyx: #363837ff;
+    --eerie-black-2: #1B1B1Bff;
+    --shamrock-green: #019863ff;
+}
+
+.navbar {
+    background-color: var(--eerie-black-2);
+}
+
+/* Custom color for just this button group */
+.btn-group{
+    border: solid 1px var(--cadet-gray);
+    border-radius: 20px;
+    padding: 3px;
+    color: white;
+}
+.btn-outline-primary {
+    --bs-btn-color: var(--onyx); /* Text color */
+    --bs-btn-border-color: transparent; /* Border color */
+    --bs-btn-hover-color: white; /* Text color on hover */
+    --bs-btn-hover-bg: var(--shamrock-green); /* Background color on hover */
+    border-radius: 20px !important;
+    color: white;
+}
+
+/* Custom color for checked state */
+.btn-check:checked + .btn-outline-primary {
+    background-color: var(--shamrock-green); /* Background color when checked */
+    color: white; /* Text color when checked */
+    border-color: var(--shamrock-green); /* Border color when checked */
+    border-radius: 20px !important;
+}
+
+
+.btn-primary, .btn-primary:hover{
+    background-color: var(--eerie-black-2) !important;
+    border-color: var(--onyx) !important;
+}
+
+
+/* Hero section styling */
+ /* Button Gradient */
+ .hero{
+    background: var(--eerie-black) url('/images/bg-full.png') no-repeat center center/cover;
+    height: fit-content;
+    padding: 10vh 0;
+    position: relative;
+ }
+  /* Button Gradient with Custom Colors */
+  .btn-gradient {
+    background: linear-gradient(to right, var(--shamrock-green), var(--cadet-gray));
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.25rem;
+    transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(to right, var(--cadet-gray), var(--shamrock-green));
+}
+
+/* Hero Title Shadow */
+.hero-title {
+    text-shadow: 2px 2px 10px var(--onyx);
+}
+
+/* Text Alignment for Hero Section */
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Gradient Overlay */
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .hero {
+        text-align: center;
+    }
+    .col-lg-6 {
+        margin-bottom: 30px;
+    }
+}
+
+/* Gradient Text Styling */
+.gradient-text {
+    background: linear-gradient(to right, var(--shamrock-green), var(--cadet-gray));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Gradient Icon Styling */
+.gradient-icon {
+    background: linear-gradient(to right, var(--shamrock-green), var(--cadet-gray));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.3rem;
+}
+
+/* Features Section Background */
+#features {
+    background-color: var(--eerie-black-2);
+}
+
+/* Features Section Padding and Alignment */
+#features .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Text Styling */
+#features p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Feature Box Hover Effect */
+#features .col-lg-4:hover {
+    background-color: var(--onyx);
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gradient-text {
+        font-size: 1.75rem;
+    }
+}
+
+#investment-process {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.process-step {
+    background-color: white; /* Card-like effect */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.3s; /* Animation for hover */
+}
+
+.process-step:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.process-icon {
+    font-size: 40px; /* Larger icon size */
+    color: #019863; /* Custom icon color */
+    margin-bottom: 15px; /* Spacing below icon */
+}
+
+#pricing{
+    background: var(--eerie-black) url('/images/bg-full.png') no-repeat center center/cover;
+    color: white;
+}
+
+
+#pricing .text-center h2{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* Card styling for the Pricing section */
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #0000007c;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+}
+
+#pricing.card:not(.pro)  .list-group-item{
+    background-color: transparent !important;
+    --bs-list-group-bg: transparent !important;
+}
+
+.card.pro{
+    --bs-card-border-color: var(--shamrock-green) !important;
+    background-color: white;
+    color: var(--eerie-black);
+}
+
+.card-header {
+    background-color: var(--eerie-black);
+    color: white;
+}
+.card-header.pro{
+    background: linear-gradient(to right, var(--shamrock-green), var(--eerie-black));
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: var(--onyx);
+    color: var(--cadet-gray);
+}
+
+.footer a {
+    color: #f8f9fa;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
